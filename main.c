@@ -27,10 +27,10 @@
 
 int main()//commented the void return type parameter main(void)
 {
-	EnablePeripheralsAndClocks();
+	EnablePeripheralsAndClocks(); 
 
     /* Loop forever */
-	for(;;){
+	for(;;){                        //setup for an infinite loop
 		AppDelay(Delay);
 		ToggleRed();
 	}
